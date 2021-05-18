@@ -8,8 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/resources/com/demoqa/features/",
-//		glue = {"helpers", "StepDefinitons"}
-		glue = {"StepDefinitons"}
+		glue = {"com.demoqa.steps"}
 		)
 
 public class DemoQARunner {
