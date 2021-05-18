@@ -31,7 +31,8 @@ public class HomePage {
 //		Actions action = new Actions(driver);
 //		action.moveToElement(driver.findElement(Elements)).click().build().perform();
 //		System.out.println(driver.findElement(Elements).getText());
-		scrollIntoElement(driver.findElement(Elements));
+		base.scrollIntoElement(driver.findElement(Elements));
+//		scrollIntoElement(driver.findElement(Elements));
 		driver.findElement(Elements).click();
 	}
 }
