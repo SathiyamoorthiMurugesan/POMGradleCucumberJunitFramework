@@ -10,7 +10,6 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/com/demoqa/features/",
 		glue = {"com.demoqa.steps"}
 		)
-
 public class DemoQARunner {
 	
 }
