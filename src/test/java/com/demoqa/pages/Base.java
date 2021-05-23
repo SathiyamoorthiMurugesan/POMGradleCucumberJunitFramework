@@ -12,6 +12,7 @@ public class Base {
 	public WebDriver driver;
 	Actions action;
 	
+		
 	public WebDriver openWebPage() {
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();

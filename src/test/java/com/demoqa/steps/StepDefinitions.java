@@ -29,6 +29,7 @@ public void user_launches_the_application() {
 //	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 //	driver.get("https://demoqa.com/");
 	driver = base.openWebPage();
+//	base.openWebPage();
 }
 @Then("user should land on Demo QA home page")
 public void user_should_land_on_demo_qa_home_page() {
@@ -40,6 +41,7 @@ public void user_should_land_on_demo_qa_home_page() {
 public void user_navigates_to_elements_page() throws InterruptedException {
 	homepage = new HomePage(driver);
 	homepage.enterElementsPage();
+//	homepage.completeTextBox();
 }
 
 
